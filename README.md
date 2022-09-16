@@ -1,8 +1,8 @@
 ## asshole
 内网穿透 参考frp写的JAVA版本(比较`臃肿`)
 # 使用方法
-Server: java -cp asshole-1.0-SNAPSHOT.jar cs.Server -c Asshole.ini
-Client: java -cp asshole-1.0-SNAPSHOT.jar cs.Client -c Asshole.ini
+* Server: java -cp asshole-1.0-SNAPSHOT.jar cs.Server -c Asshole.ini
+* Client: java -cp asshole-1.0-SNAPSHOT.jar cs.Client -c Asshole.ini
 ```ini
 [server]
 server_host=serverIp #服务IP
